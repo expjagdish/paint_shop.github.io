@@ -1,0 +1,316 @@
+/* Custome css  */
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font-family: sans-serif;}
+/* top section */
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 5px 80px;
+    color: #fff;
+    background-color: #192a56;
+    position: relative;
+    
+}
+.email i{
+    font-size: 22px;
+    margin: 0px 10px;
+}
+/* nav section */
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    /* position: fixed;
+    z-index: 1;
+    background-color: #fff; */
+}
+.logo{
+    font-size: 1.5em;
+    flex-basis: 30%;
+    font-weight: bold;
+}
+.menubar{
+    flex-basis: 70%;
+    text-align: right;
+}
+.menubar a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 0px 20px;
+}
+.menubar a:hover{
+    background-color: #192a56;
+    color: #fff;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+/* start header section */
+header{
+    width: 100%;
+    height: 80vh;
+    background: url('image/sofa.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 7em;
+}
+#particles-js{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+header h1{
+    font-size: 3em;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+header button{
+    background: #192a56;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* service section */
+section{
+    padding: 50px 70px;
+}
+.row-service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-service >div{
+    flex-basis: 20%;
+    text-align: center;
+}
+.row-service >div img{
+    width: 40%;
+}
+.row-service p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #000;
+}
+/* Quality section */
+#quality{
+    padding: 50px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#quality >div{
+    flex-basis: 20%;
+    text-align: center;
+}
+#quality >div img{
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 2px 3px 5px gray;
+}
+#quality p{
+    font-size: 20px;
+    margin-top: 10px;
+    color:#000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/* feature section */
+#feature{
+    padding: 50px 70px;
+    width: 100%;
+    height: 100vh;
+    background-color: #192a56;
+    color: #fff;
+    position: relative;
+}
+#feature h1{
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.row-feature{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-left-feature{
+    flex-basis: 30%;
+    text-align: center;
+}
+.col-left-feature img{
+    width: 70%;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.col-right-feature{
+    flex-basis: 60%;
+}
+.col-right-feature h2{
+    font-size: 30px;
+}
+.col-right-feature p{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.col-right-feature button{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+#wave{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+/* testimonials section */
+#testimonials{
+    padding: 50px 70px;
+    width: 100%;
+}
+#testimonials h1{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1.2em;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  .swiper-slide img{
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide img{
+    border-radius:10px;
+  }
+  .swiper-slide p{
+    background-color: #192a56;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
+  /* contact setion */
+  #contact{
+    padding: 50px 70px;
+    width: 100%;
+    height: 80vh;
+  }
+  #contact h1{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1.2em;
+  }
+  .row-contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .col-left-contact{
+    flex-basis: 50%;
+  }
+  .col-left-contact iframe{
+    border-radius: 8px;
+  }
+  .col-right-contact{
+    flex-basis: 40%;
+  }
+  .col-right-contact h2{
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+  }
+  form input[type=text]{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+  }
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #192a56;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+/* footer section */
+footer{
+    padding: 30px 70px;
+    background-color: #192a56;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+footer h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+footer div{
+    line-height: 35px;
+}
+
+footer div input[type=text]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    background: #044bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    cursor: pointer;
+}
